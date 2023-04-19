@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    username: postgres
+    password: root123
+
+    url: jdbc:postgresql://localhost:5432/crud_spring_boot_javascript
+    driver-class-name: org.postgresql.Driver
+
+
+  jpa:
+    properties:
+      hibernate:
+        globally_quoted_identifiers=true:
+    hibernate:
+      ddl-auto: update
+
+
+
